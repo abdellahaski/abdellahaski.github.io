@@ -7,76 +7,81 @@ const config = {
     limit: 10, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['EMSIStage','medigo'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'abdellahaski',
+    twitter: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // format: userid/username
-    website: 'https://arifszn.github.io',
+    medium: '',
+    dev: '',
+    stackoverflow: '5063276/asghostki', // format: userid/username
+    website: 'https://abdellahaski.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'abdellah@aski.me',
   },
   resume: {
-    fileUrl: 'resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'TypeScript',
     'JavaScript',
-    'React.js',
+    'Angular',
+    'Firebase',
     'Node.js',
-    'Nest.js',
+    'Java',
     'MySQL',
-    'PostgreSQL',
+    'PL/SQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Google Cloud Platform',
+    'IT Consulting',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Sopra Banking Software',
+      position: 'Software Engineer / IT Consultant',
+      from: 'Mars 2019',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.soprabanking.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'National Meteorological Department',
+      position: 'Software Engineer Intern',
+      from: 'July 2018',
+      to: 'September 2018',
+      companyLink: 'https://www.marocmeteo.ma/',
+    },
+    {
+      company: 'HPS',
+      position: 'Software Engineer Intern',
+      from: 'August 2017',
+      to: 'September 2017',
+      companyLink: 'https://www.marocmeteo.ma/',
     },
   ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: 'Côte d\'Azur University',
+      degree: 'Master\'s Degree in Computer Science (MIAGE)',
+      from: '2018',
       to: '2019',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Moroccan School of Engineering Sciences',
+      degree: 'Engineer\'s Degree in Computer Science',
+      from: '2014',
+      to: '2019',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'jintoppy', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -88,7 +93,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'business',
+    defaultTheme: 'dracula',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
