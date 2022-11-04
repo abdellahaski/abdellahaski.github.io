@@ -11,32 +11,37 @@ const config = {
     },
   },
   social: {
-    linkedin: 'abdellahaski',
-    twitter: '',
+    linkedin: 'ariful-alam',
+    twitter: 'arif_szn',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'abdellahaski',
+    medium: 'arifszn',
     dev: 'arifszn',
-    stackoverflow: '5063276/asghostki', // format: userid/username
-    website: 'https://abdellah.aski.me',
+    stackoverflow: '', // format: userid/username
+    website: 'https://arifszn.github.io',
     phone: '',
-    email: '',
+    email: 'arifulalamszn@gmail.com',
   },
   resume: {
-    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Typescript',
+    'PHP',
+    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
+    'Nest.js',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
+    'PHPUnit',
     'CSS',
+    'Antd',
+    'Tailwind',
   ],
   experiences: [
     {
@@ -71,7 +76,7 @@ const config = {
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: '', // to hide blog section, keep it empty
+    username: 'arifszn', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -83,7 +88,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'dracula',
+    defaultTheme: 'business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
